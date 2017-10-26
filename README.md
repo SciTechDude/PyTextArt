@@ -5,30 +5,29 @@ You need to specify size at command line.
 
 For e.g.
 
-`BowTie(size=10, fill_value = '\*', empty_value = ' ').print_shape()`
+`BowTie(size=10, fill_value = '*', empty_value = ' ').print_shape()`
 
 Result:
 
 </code>
 
-\*                                   \*
-  \*                               \*  
-\*   \*                           \*   \*
-  \*   \*                       \*   \*  
-\*   \*   \*                   \*   \*   \*
-  \*   \*   \*               \*   \*   \*  
-\*   \*   \*   \*           \*   \*   \*   \*
-  \*   \*   \*   \*       \*   \*   \*   \*  
-\*   \*   \*   \*   \*   \*   \*   \*   \*   \*
-  \*   \*   \*   \*   \*   \*   \*   \*   \*  
-\*   \*   \*   \*   \*   \*   \*   \*   \*   \*
-  \*   \*   \*   \*       \*   \*   \*   \*  
-\*   \*   \*   \*           \*   \*   \*   \*
- \*   \*   \*               \*   \*   \*  
-\*   \*   \*                   \*   \*   \*
-  \*   \*                       \*   \*  
-\*   \*                           \*   \*
-  \*                               \*  
-\*                                   \*
-
+* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * <br>
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp;<br>
+* &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; *<br>
+&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp;<br>
+* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *<br>
 </code>
