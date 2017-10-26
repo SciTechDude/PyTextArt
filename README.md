@@ -7,7 +7,7 @@ For e.g.
 
 `BowTie(size=10, fill_value = '*', empty_value = ' ').print_shape()`
 
-Result
+Result:
 
 <code>
 
