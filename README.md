@@ -9,25 +9,26 @@ For e.g.
 
 Result:
 
-</code>
+<pre>
 
-* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * <br>
-&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; * &nbsp;<br>
-* &nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp; *<br>
-&nbsp; * &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; * &nbsp;<br>
-* &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *<br>
-</code>
+*                                   *
+  *                               *  
+*   *                           *   *
+  *   *                       *   *  
+*   *   *                   *   *   *
+  *   *   *               *   *   *  
+*   *   *   *           *   *   *   *
+  *   *   *   *       *   *   *   *  
+*   *   *   *   *   *   *   *   *   *
+  *   *   *   *   *   *   *   *   *  
+*   *   *   *   *   *   *   *   *   *
+  *   *   *   *       *   *   *   *  
+*   *   *   *           *   *   *   *
+ *   *   *               *   *   *  
+*   *   *                   *   *   *
+  *   *                       *   *  
+*   *                           *   *
+  *                               *  
+*                                   *
+
+</pre>
