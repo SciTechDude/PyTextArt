@@ -1,7 +1,12 @@
-# bowTieShapeGenerator
 
-BowTieShapeGenerator lets you generate a bow-tie shape made of  anyu given characaters of  any given size.
-You need to specify size at command line.
+# PyTextArt
+
+PyTextArt lets you generate different shapes given it's size and shape-type.
+For now a bow-tie shape made of  any given characaters of  any given size can be created
+
+More shapes will be added soon.
+
+# bowTie Shape Generator
 
 For example:
 
