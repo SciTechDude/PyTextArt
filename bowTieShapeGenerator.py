@@ -1,3 +1,4 @@
+
 # Author: Anil Mandra 
 #
 # (c) 2017
@@ -6,6 +7,7 @@
 #License: MIT
 
 from __future__ import print_function
+from itertools import islice, chain
 
 class BowTie(object):
     def __init__(self, size=5, fill_value = '*', empty_value = ' '):
@@ -15,41 +17,21 @@ class BowTie(object):
 
     def  create_shape(self):
         ''' creates shape as per input values and returns list of list of values'''
-        star = self.fill_value
-        dot = self.empty_value
-        m = (self.size * 2) - 1 #Get center row
-        
-        #get  top half list
-        th = []
-        for idx,k in enumerate(xrange(1,self.size+1)): #run through 1 - size
-            row = idx + 1
-            tmplst = []
-            if row % 2 != 0:
-                tmplst.append(i for i in xrange(1,row + 1) if i % 2 != 0)
-                tmplst.append(i for i in xrange(m, m-row, -1) if i % 2 != 0)
-            else:
-                tmplst.append(i for i in xrange(1,row + 1) if i % 2 == 0)
-                tmplst.append(i for i in xrange(m, m-row, -1) if i % 2 == 0)
-                
-            #append each row value to  top half list.
-            th.append(sorted(set([j for i in tmplst for j in i])))
-
-        #create palindrome of top half which is our bottom half 
-        th = th + th[len(th) -2::-1]
-
-        def get_list(bound = self.size, alist = []):
-            ''' expects upper bound and an integer list
-            returns a list of fill_values '''        
-            tmp_list = []            
-            for i in xrange(1,bound + 1):
-                tmp_list.append(star if i in alist else dot)
-            return tmp_list
-             
-        #create list of * and blanks or as per fill and empty value
-        row_values = [get_list(bound = m, alist = i) for i in th]
-        return row_values
+        face = [self.fill_value,self.empty_value] * ((self.size*2) - 1)
+        rows = list(chain(range(self.size),reversed(range(self.size-1))))
+        for i in rows:
+            l1 = ''.join(chain(islice(face, i, (i*2)+1) , [self.empty_value * (self.size - (i + 1))]))
+            yield ''.join(l1 + l1[::-1][1:])
 
     def print_shape(self):
         ''' print given list of list of values'''
         for i in self.create_shape():
-            print(' '.join(i))
+            print(i)
+
+
+#example use 1
+BowTie(size=5, fill_value = '*', empty_value = ' ').print_shape()
+
+#example use 2
+BowTie(size=16, fill_value = '#', empty_value = '.').print_shape()
+    
