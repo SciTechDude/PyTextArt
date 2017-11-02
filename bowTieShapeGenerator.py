@@ -39,7 +39,7 @@ class BowTie(object):
 
 
 #example use 1
-BowTie(size=5, fill_value = '*', empty_value = '.', hollow = False).print_shape()
+BowTie(size=5, fill_value = '*', empty_value = '-', hollow = False).print_shape()
 
 #example use 1
 BowTie(size=7, fill_value = '#', empty_value = ' ', hollow = False).print_shape()
